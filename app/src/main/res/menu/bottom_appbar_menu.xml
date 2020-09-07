@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/a"
+        android:icon="@drawable/curved_arrow_pointing_left"
+        android:title="back"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/b"
+        android:icon="@drawable/xmlid_476"
+        android:title="back"
+        app:showAsAction="always" />
+    <group>
+        <item
+            android:title=""
+            app:showAsAction="always" /><item
+            android:title=""
+            app:showAsAction="always" /><item
+            android:title=""
+            app:showAsAction="always" /><item
+            android:title=""
+            app:showAsAction="always" />
+    </group>
+    <item
+        android:id="@+id/c"
+        android:icon="@drawable/crop_button"
+        android:title="back"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/d"
+        android:icon="@drawable/group_364"
+        android:title="back"
+        app:showAsAction="always" />
+
+</menu>
