@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.izadinia.rostmana.MainFragment"
+        android:name="com.izadinia.rostmana.ui.MainFragment"
         android:label="MainFragment" >
         <action
             android:id="@+id/action_mainFragment_to_categoryFragment"
@@ -20,11 +20,11 @@
     </fragment>
     <fragment
         android:id="@+id/categoryFragment"
-        android:name="com.izadinia.rostmana.CategoryFragment"
+        android:name="com.izadinia.rostmana.ui.CategoryFragment"
         android:label="fragment_category"
         tools:layout="@layout/fragment_category" />
     <dialog
         android:id="@+id/genderSelectionDialog"
-        android:name="com.izadinia.rostmana.GenderSelectionDialog"
+        android:name="com.izadinia.rostmana.ui.GenderSelectionDialog"
         android:label="GenderSelectionDialog" />
 </navigation>

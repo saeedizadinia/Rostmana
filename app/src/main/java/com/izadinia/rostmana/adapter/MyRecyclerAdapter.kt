@@ -1,10 +1,12 @@
-package com.izadinia.rostmana
+package com.izadinia.rostmana.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.izadinia.rostmana.R
+import com.izadinia.rostmana.model.CategoryDrawablesModel
 
 
 class MyRecyclerAdapter(models: ArrayList<CategoryDrawablesModel>) : RecyclerView.Adapter<MyRecyclerAdapter.MyViewHolder>() {
@@ -16,7 +18,7 @@ class MyRecyclerAdapter(models: ArrayList<CategoryDrawablesModel>) : RecyclerVie
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        val catModel:CategoryDrawablesModel = catModels[position]
+        val catModel: CategoryDrawablesModel = catModels[position]
         holder.catImage.setImageResource(catModel.imageId)
         holder.itemView.setOnClickListener {  }
     }

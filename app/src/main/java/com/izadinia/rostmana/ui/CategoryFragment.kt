@@ -1,4 +1,4 @@
-package com.izadinia.rostmana
+package com.izadinia.rostmana.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.izadinia.rostmana.R
+import com.izadinia.rostmana.adapter.MyRecyclerAdapter
+import com.izadinia.rostmana.model.getModels
 
 class CategoryFragment : Fragment() {
 

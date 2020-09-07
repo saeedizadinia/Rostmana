@@ -1,4 +1,6 @@
-package com.izadinia.rostmana
+package com.izadinia.rostmana.model
+
+import com.izadinia.rostmana.R
 
 //object CategoryDrawablesModelFactory {
 /**

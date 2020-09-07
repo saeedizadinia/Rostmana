@@ -1,4 +1,4 @@
-package com.izadinia.rostmana
+package com.izadinia.rostmana.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
 import androidx.fragment.app.DialogFragment
+import com.izadinia.rostmana.R
 
 class GenderSelectionDialog : DialogFragment() {
     override fun onCreateView(
